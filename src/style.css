@@ -1,0 +1,30 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  footer {
+    background-color: #df0000;
+    padding: 25px;
+  }
+
+  footer h4, a {
+    color: black;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+    color: indigo;
+  }
+  
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    min-height:200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
